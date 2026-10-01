@@ -1,0 +1,9 @@
+APARECIDA ALMEIDA SALON - SITE
+
+Como usar:
+- Abra o index.html no navegador, ou envie a pasta para qualquer hospedagem estatica (Netlify, Vercel, GitHub Pages, etc.).
+
+Como editar:
+- Todos os dados (contato, textos, servicos, galeria, avaliacoes) ficam no objeto SITE, no inicio do <script> no final do index.html.
+- Fotos: coloque o caminho da imagem no campo "img" (ex.: img: "fotos/cabelo1.jpg") e salve as imagens em uma pasta "fotos" ao lado do index.html.
+- Servicos: preencha name, desc e, se quiser, price e duration.

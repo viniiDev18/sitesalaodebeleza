@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aparecida Almeida Salon | Salão de Beleza em Messejana - Fortaleza</title>
+<meta name="description" content="Aparecida Almeida Salon, salão de beleza em Messejana, Fortaleza. Atendimento profissional, ambiente aconchegante e cuidado em cada detalhe. Entre em contato e agende seu atendimento.">
+<meta name="keywords" content="salão de beleza em Messejana, salão em Messejana Fortaleza, cabeleireiro Messejana, manicure Messejana, beleza em Messejana, Aparecida Almeida Salon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HairSalon","name":"Aparecida Almeida Salon","telephone":"+55 85 98827-2676","address":{"@type":"PostalAddress","streetAddress":"R. Padre Pedro de Alencar, 2053","addressLocality":"Fortaleza","addressRegion":"CE","postalCode":"60872-560","addressCountry":"BR"},"areaServed":"Messejana, Fortaleza","sameAs":["https://www.instagram.com/aparecidaalmeidasalon"],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"118"}}
+</script>
+<style>
+:root{--bg:#faf6ef;--bg2:#f2eadd;--card:#fff;--ink:#2a211c;--muted:#6f6259;--gold:#b8955a;--gold2:#d9c29a;--line:#e6dccb;--serif:'Cormorant Garamond',Georgia,serif;--sans:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1a1512;--bg2:#221c18;--card:#2a221d;--ink:#f3ebdf;--muted:#b3a698;--line:#3a3029}}
+:root[data-theme="dark"]{--bg:#1a1512;--bg2:#221c18;--card:#2a221d;--ink:#f3ebdf;--muted:#b3a698;--line:#3a3029}
+html{scroll-behavior:smooth;scroll-padding-top:calc(80px + env(safe-area-inset-top,0px))}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.65;font-weight:300;-webkit-font-smoothing:antialiased}
+img{max-width:100%}a{color:inherit;text-decoration:none}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0}
+.wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+section{padding:96px 0}
+.eyebrow{font-size:.75rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:14px;display:block}
+h2{font-size:clamp(2rem,4.5vw,3.1rem);margin-bottom:18px}
+.lead{color:var(--muted);max-width:620px;font-size:1.05rem}
+.center{text-align:center}.center .lead{margin:0 auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 28px;border-radius:999px;font-weight:500;font-size:.95rem;border:1px solid var(--ink);cursor:pointer;transition:.3s;font-family:var(--sans);background:transparent;color:var(--ink)}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:#fff}
+.btn.gold:hover{background:#a3824a;transform:translateY(-2px)}
+.btn.ghost:hover{background:var(--ink);color:var(--bg)}
+.btn.lg{padding:18px 38px;font-size:1.05rem}
+.btn:focus-visible,a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+/* header */
+header{position:fixed;top:0;left:0;right:0;z-index:70;padding-top:env(safe-area-inset-top,0px);transition:.3s}
+header::before{content:"";position:absolute;inset:0;z-index:-1;background:color-mix(in srgb,var(--bg) 92%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);opacity:0;transition:opacity .3s}
+header.solid::before{opacity:1}
+.nav{display:flex;align-items:center;justify-content:space-between;height:74px;gap:16px}
+.logo{font-family:var(--serif);font-size:1.45rem;font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.logo span{color:var(--gold)}
+nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0}
+nav a{font-size:.88rem;position:relative;padding:4px 0}
+nav a::after{content:"";position:absolute;left:0;bottom:0;height:1px;width:0;background:var(--gold);transition:.3s}
+nav a:hover::after{width:100%}
+.actions{display:flex;align-items:center;gap:10px}
+.ig{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;transition:.3s}
+.ig:hover{border-color:var(--gold);color:var(--gold)}
+.burger{display:none;width:44px;height:44px;background:none;border:1px solid var(--line);border-radius:50%;cursor:pointer;color:var(--ink)}
+.burger span{display:block;width:18px;height:1.5px;background:currentColor;margin:5px auto;transition:.3s}
+nav{display:block}
+.navx,.scrim{display:none}
+@media(max-width:1120px){
+ .burger{display:block}.actions .btn{display:none}
+ nav{position:fixed;top:0;right:0;bottom:0;width:min(320px,85vw);z-index:90;background:var(--bg);padding:calc(96px + env(safe-area-inset-top,0px)) 30px 30px;transform:translateX(105%);visibility:hidden;transition:transform .4s,visibility .4s;box-shadow:-10px 0 40px rgba(0,0,0,.12);overflow-y:auto}
+ nav.open{transform:none;visibility:visible}
+ nav ul{flex-direction:column;gap:20px}nav a{font-size:1.15rem}
+ .navx{display:grid;place-items:center;position:absolute;top:calc(16px + env(safe-area-inset-top,0px));right:18px;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:none;color:var(--ink);font-size:1.7rem;line-height:1;cursor:pointer}
+ .scrim{display:block;position:fixed;inset:0;z-index:80;background:rgba(20,14,10,.45);opacity:0;pointer-events:none;transition:opacity .4s}
+ .scrim.on{opacity:1;pointer-events:auto}
+ .mob-cta{display:inline-flex!important;margin-top:28px;width:100%}
+ .burger{position:relative;z-index:95}
+ .burger[aria-expanded="true"]{visibility:hidden}
+}
+.mob-cta{display:none}
+/* hero */
+.hero{min-height:100vh;min-height:100svh;display:flex;align-items:center;padding:130px 0 70px;background:radial-gradient(1000px 600px at 90% 10%,var(--bg2),transparent 70%),var(--bg)}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,6.2vw,4.9rem);margin-bottom:24px}
+.hero h1 em{color:var(--gold);font-style:italic}
+.hero .lead{margin-bottom:34px;font-size:1.15rem}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap}
+.trust{margin-top:34px;font-size:.88rem;color:var(--muted);display:flex;align-items:center;gap:10px}
+.trust b{color:var(--gold);font-weight:500;letter-spacing:.1em}
+.ph{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--bg2),var(--gold2));display:grid;place-items:center;color:var(--muted);text-align:center;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ph small{padding:14px;max-width:220px;opacity:.85}
+.hero-img{aspect-ratio:4/5;border-radius:200px 200px 24px 24px;border:1px solid var(--line);box-shadow:0 30px 60px -30px rgba(90,60,20,.35)}
+body.lock{overflow:hidden}
+@media(max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:40px}.hero-img{max-height:420px;width:100%;aspect-ratio:5/4;border-radius:120px 120px 20px 20px}section{padding:72px 0}}
+/* about */
+.about{background:var(--bg2)}
+.about .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center}
+.about-img{aspect-ratio:1;border-radius:24px}
+.feats{display:grid;gap:22px;margin-top:34px}
+.feat{display:flex;gap:16px}.feat i{flex:none;width:8px;height:8px;border-radius:50%;background:var(--gold);margin-top:11px}
+.feat h3{font-size:1.35rem;margin-bottom:2px}.feat p{margin:0;color:var(--muted);font-size:.95rem}
+@media(max-width:860px){.about .wrap{grid-template-columns:1fr;gap:36px}}
+/* services */
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin-top:52px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;transition:.4s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-6px);box-shadow:0 24px 40px -24px rgba(90,60,20,.3)}
+.card .ph{aspect-ratio:4/3}
+.card-b{padding:22px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{font-size:1.5rem}.card p{margin:0;color:var(--muted);font-size:.93rem;flex:1}
+.meta{font-size:.8rem;color:var(--gold);min-height:1em}
+.card .btn{margin-top:10px;padding:11px 20px;font-size:.88rem}
+/* gallery */
+.filters{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:34px 0 36px}
+.chip{padding:9px 20px;border-radius:999px;border:1px solid var(--line);background:none;color:var(--ink);cursor:pointer;font:400 .85rem var(--sans);transition:.3s}
+.chip.on,.chip:hover{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.masonry{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:180px;gap:14px;grid-auto-flow:dense}
+.g{border-radius:16px;cursor:pointer;border:0;padding:0;position:relative;overflow:hidden}
+.g.tall{grid-row:span 2}.g.wide{grid-column:span 2}
+.g .ph{position:absolute;inset:0;transition:transform .7s}
+.g:hover .ph{transform:scale(1.06)}
+.g::after{content:attr(data-cat);position:absolute;left:14px;bottom:12px;color:#fff;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;opacity:0;transform:translateY(8px);transition:.4s;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.g:hover::after,.g:focus-visible::after{opacity:1;transform:none}
+.g.hide{display:none}
+@media(max-width:860px){.masonry{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}}
+.lb{position:fixed;inset:0;background:rgba(20,14,10,.88);z-index:100;display:none;align-items:center;justify-content:center;padding:24px}
+.lb.on{display:flex}.lb .ph{width:min(760px,100%);aspect-ratio:4/5;max-height:80vh;border-radius:18px}
+.lb button{position:absolute;top:calc(18px + env(safe-area-inset-top,0px));right:20px;width:46px;height:46px;border-radius:50%;border:1px solid #fff5;background:none;color:#fff;font-size:1.5rem;cursor:pointer}
+/* reviews */
+.reviews{background:var(--bg2)}
+.score{display:flex;align-items:baseline;justify-content:center;gap:12px;margin:26px 0 6px}
+.score b{font-family:var(--serif);font-size:4.2rem;font-weight:500;color:var(--gold);line-height:1}
+.score span{font-size:1.6rem;color:var(--gold)}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:30px}
+.rev .st{color:var(--gold);letter-spacing:.15em;margin-bottom:12px}
+.rev p{font-family:var(--serif);font-size:1.25rem;line-height:1.5;margin:0 0 18px;font-weight:400}
+.rev cite{font-style:normal;font-size:.85rem;color:var(--muted)}
+/* diffs */
+.icon{width:54px;height:54px;border-radius:50%;border:1px solid var(--gold2);display:grid;place-items:center;color:var(--gold);margin-bottom:16px}
+.diff{padding:8px 4px}.diff h3{font-size:1.4rem;margin-bottom:6px}.diff p{margin:0;color:var(--muted);font-size:.93rem}
+/* location */
+.loc{background:var(--bg2)}
+.loc .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.addr{font-family:var(--serif);font-size:1.6rem;line-height:1.35;margin:22px 0 28px}
+.mapbox{aspect-ratio:4/3;border-radius:24px;border:1px solid var(--line);background:linear-gradient(135deg,var(--card),var(--bg));display:grid;place-items:center;text-align:center;padding:24px}
+.mapbox svg{color:var(--gold);margin-bottom:10px}
+@media(max-width:860px){.loc .wrap{grid-template-columns:1fr;gap:34px}}
+/* contact */
+.contact{background:#2a211c;color:#faf6ef;text-align:center;padding:110px 0}
+.contact h2{color:#faf6ef}.contact .lead{color:#d6c9b8;margin:0 auto 34px}
+.contact .btn.ghost{color:#faf6ef;border-color:#faf6ef88}.contact .btn.ghost:hover{background:#faf6ef;color:#2a211c}
+.contact .cta-row{justify-content:center}
+.phone{margin-top:22px;color:#d6c9b8;font-size:.95rem}
+/* footer */
+footer{padding:60px 0 30px;border-top:1px solid var(--line);font-size:.9rem}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr;gap:40px}
+footer p{margin:4px 0;color:var(--muted)}
+.flinks{display:flex;flex-wrap:wrap;gap:8px 22px;list-style:none;padding:0;margin:0;align-content:flex-start}
+.copy{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);color:var(--muted);font-size:.82rem}
+@media(max-width:700px){.fgrid{grid-template-columns:1fr}}
+/* whatsapp float + reveal */
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:60;width:60px;height:60px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;box-shadow:0 10px 26px rgba(0,0,0,.25);transition:.3s}
+.wa:hover{transform:scale(1.08)}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s ease,transform .9s ease}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header id="hdr"><div class="wrap nav">
+  <a href="#inicio" class="logo" aria-label="Aparecida Almeida Salon">Aparecida Almeida <span>Salon</span></a>
+  <nav id="nav" aria-label="Principal"><button class="navx" id="navX" aria-label="Fechar menu">×</button><ul id="menu"></ul><a class="btn gold mob-cta" data-wa target="_blank" rel="noopener" href="#">Agendar atendimento</a></nav>
+  <div class="actions">
+    <a class="ig" data-ig target="_blank" rel="noopener" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a>
+    <a class="btn gold" data-wa target="_blank" rel="noopener" href="#">Agendar atendimento</a>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</div><div class="scrim" id="scrim"></div></header>
+
+<main>
+<section class="hero" id="inicio"><div class="wrap">
+  <div class="rv">
+    <span class="eyebrow">Salão de Beleza · Messejana</span>
+    <h1>Sua beleza, cuidada em cada <em>detalhe.</em></h1>
+    <p class="lead">Um espaço pensado para você se sentir ainda mais bonita, confiante e bem cuidada.</p>
+    <div class="cta-row"><a class="btn gold lg" data-wa target="_blank" rel="noopener" href="#">Agendar atendimento</a><a class="btn ghost lg" href="#sobre">Conhecer o salão</a></div>
+    <div class="trust"><b>★</b> <span id="trustTxt"></span></div>
+  </div>
+  <!-- FOTO REAL: defina SITE.images.hero em SITE (topo do script) -->
+  <div class="ph hero-img rv" id="heroImg"></div>
+</div></section>
+
+<section class="about" id="sobre"><div class="wrap">
+  <!-- FOTO REAL: SITE.images.about -->
+  <div class="ph about-img rv" id="aboutImg"></div>
+  <div class="rv">
+    <span class="eyebrow">Sobre o salão</span>
+    <h2>Um espaço para cuidar de você</h2>
+    <p class="lead">O Aparecida Almeida Salon é um espaço dedicado à beleza, ao cuidado e ao bem-estar. Cada atendimento busca unir profissionalismo, carinho e atenção aos detalhes para proporcionar uma experiência especial às nossas clientes.</p>
+    <div class="feats" id="feats"></div>
+  </div>
+</div></section>
+
+<section id="servicos"><div class="wrap center">
+  <span class="eyebrow rv">O que oferecemos</span>
+  <h2 class="rv">Nossos serviços</h2>
+  <p class="lead rv">Consulte com nossa equipe os serviços disponíveis em cada categoria.</p>
+  <div class="grid4" id="services" style="text-align:left"></div>
+</div></section>
+
+<section id="galeria" style="background:var(--bg2)"><div class="wrap center">
+  <span class="eyebrow rv">Galeria</span>
+  <h2 class="rv">Conheça nosso trabalho</h2>
+  <div class="filters" id="filters" role="tablist"></div>
+  <div class="masonry" id="masonry"></div>
+  <div style="margin-top:44px"><a class="btn ghost" data-ig target="_blank" rel="noopener">Veja mais trabalhos no Instagram</a></div>
+</div></section>
+
+<section class="reviews" id="avaliacoes" style="background:var(--bg)"><div class="wrap center">
+  <span class="eyebrow rv">Avaliações</span>
+  <h2 class="rv">Quem conhece, recomenda</h2>
+  <div class="score rv"><b id="score"></b><span>★</span></div>
+  <p class="lead rv" id="scoreTxt" style="margin-bottom:46px"></p>
+  <div class="grid4" id="revs" style="grid-template-columns:repeat(auto-fit,minmax(290px,1fr));text-align:left;margin-top:0"></div>
+  <div style="margin-top:44px"><a class="btn ghost" id="gLink" target="_blank" rel="noopener">Ver avaliações no Google</a></div>
+</div></section>
+
+<section style="background:var(--bg2)"><div class="wrap center">
+  <span class="eyebrow rv">Diferenciais</span>
+  <h2 class="rv">O que faz a diferença</h2>
+  <div class="grid4" id="diffs" style="text-align:left"></div>
+</div></section>
+
+<section class="loc" id="localizacao" style="background:var(--bg)"><div class="wrap">
+  <div class="rv">
+    <span class="eyebrow">Localização</span>
+    <h2>Onde estamos</h2>
+    <p class="addr" id="addr"></p>
+    <a class="btn gold" id="dirBtn" target="_blank" rel="noopener">Como chegar</a>
+  </div>
+  <div class="mapbox rv"><div>
+    <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+    <div style="font-family:var(--serif);font-size:1.4rem">Messejana, Fortaleza - CE</div>
+    <p style="color:var(--muted);font-size:.9rem;margin:6px 0 18px">Abra o mapa para ver a rota até o salão.</p>
+    <a class="btn ghost" id="mapBtn" target="_blank" rel="noopener">Ver no Google Maps</a>
+  </div></div>
+</div></section>
+
+<section class="contact" id="contato"><div class="wrap rv">
+  <span class="eyebrow">Contato</span>
+  <h2>Vamos cuidar de você?</h2>
+  <p class="lead">Entre em contato com nossa equipe e consulte os serviços e horários disponíveis.</p>
+  <div class="cta-row"><a class="btn gold lg" data-wa target="_blank" rel="noopener" href="#">Agendar pelo WhatsApp</a><a class="btn ghost lg" data-ig target="_blank" rel="noopener" id="igBig"></a></div>
+  <p class="phone" id="phoneTxt"></p>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <div class="fgrid">
+    <div><div class="logo">Aparecida Almeida <span>Salon</span></div><p>Salão de Beleza</p><p id="fAddr"></p><p id="fPhone"></p><p id="fIg"></p></div>
+    <ul class="flinks" id="flinks"></ul>
+  </div>
+  <div class="copy">© 2026 Aparecida Almeida Salon. Todos os direitos reservados.</div>
+</div></footer>
+
+<a class="wa" data-wa target="_blank" rel="noopener" href="#" aria-label="Falar pelo WhatsApp"><svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Imagem ampliada"><button id="lbX" aria-label="Fechar">×</button><div class="ph" id="lbImg"></div></div>
+
+<script>
+/* ============================================================
+   DADOS DO SALÃO — edite aqui. Nada abaixo precisa mudar.
+   Fotos: coloque o caminho/URL em "img" (ou data URI). Vazio = placeholder.
+   Serviços: preencha name/desc e, se quiser, price/duration.
+   ============================================================ */
+const SITE = {
+  name: "Aparecida Almeida Salon",
+  phone: "(85) 98827-2676",
+  whatsapp: "5585988272676",
+  waMessage: "Olá! Gostaria de agendar um atendimento no Aparecida Almeida Salon.",
+  instagram: "aparecidaalmeidasalon",
+  address: "R. Padre Pedro de Alencar, 2053 - Messejana, Fortaleza - CE, 60872-560",
+  rating: "4,9", reviewCount: 118,
+  images: { hero: "", about: "" },
+  features: [
+    ["Atendimento cuidadoso","Um atendimento pensado para proporcionar conforto e uma experiência acolhedora."],
+    ["Profissionais qualificados","Equipe preparada para oferecer serviços com atenção, técnica e profissionalismo."],
+    ["Produtos de qualidade","Trabalhamos com produtos selecionados para proporcionar um resultado bonito e duradouro."]
+  ],
+  services: [ // price e duration são opcionais (ex.: price:"R$ 00", duration:"1h")
+    { name:"Cabelos", desc:"Descrição do serviço em breve. Consulte nossa equipe.", img:"", price:"", duration:"" },
+    { name:"Unhas", desc:"Descrição do serviço em breve. Consulte nossa equipe.", img:"", price:"", duration:"" },
+    { name:"Beleza", desc:"Descrição do serviço em breve. Consulte nossa equipe.", img:"", price:"", duration:"" },
+    { name:"Cuidados especiais", desc:"Descrição do serviço em breve. Consulte nossa equipe.", img:"", price:"", duration:"" }
+  ],
+  gallery: [ // size: "" | "tall" | "wide"
+    { cat:"Cabelos", size:"tall", img:"" },{ cat:"Ambiente", size:"", img:"" },{ cat:"Unhas", size:"", img:"" },
+    { cat:"Resultados", size:"wide", img:"" },{ cat:"Cabelos", size:"", img:"" },{ cat:"Unhas", size:"tall", img:"" },
+    { cat:"Ambiente", size:"wide", img:"" },{ cat:"Resultados", size:"", img:"" }
+  ],
+  reviews: [
+    { text:"Super indico. Ótimos profissionais, produtos de alta qualidade. E sem contar do atendimento maravilhoso, espaço muito aconchegante.", author:"Cristiane Lima" },
+    { text:"Simplesmente maravilhoso! O Salão Aparecida Almeida entrega tudo: atendimento impecável, profissionalismo, carinho e um resultado perfeito. Dá pra sentir o cuidado em cada detalhe, desde a recepção até a finalização do serviço.", author:"Mariana Cruz Marques de Oliveira" },
+    { text:"Melhor salão de Fortaleza! Atendimento de primeira, só vou nele! Super indicooo!", author:"Vanda Uchoa dos Santos" }
+  ],
+  diffs: [
+    ["Atendimento acolhedor","Um ambiente pensado para que cada cliente se sinta confortável.","M12 21s-7-4.6-7-10a4 4 0 0 1 7-2.500A4 4 0 0 1 19 11c0 5.400-7 10-7 10z"],
+    ["Qualidade","Profissionalismo e atenção em cada etapa do atendimento.","M12 3l2.600 5.400 5.900.8-4.300 4.100 1 5.900L12 16.400 6.800 19.200l1-5.900L3.500 9.200l5.900-.8z"],
+    ["Cuidado nos detalhes","Uma experiência que valoriza o resultado e o bem-estar.","M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.500 2.500M15.500 15.500L18 18M6 18l2.500-2.500M15.500 8.500L18 6"],
+    ["Ambiente aconchegante","Um espaço para relaxar e cuidar de você.","M4 11l8-7 8 7v9H4z M10 20v-5h4v5"]
+  ],
+  menu: [["Início","inicio"],["Sobre","sobre"],["Serviços","servicos"],["Galeria","galeria"],["Avaliações","avaliacoes"],["Localização","localizacao"],["Contato","contato"]]
+};
+/* ============================================================ */
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const wa = `https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(SITE.waMessage)}`;
+const ig = `https://www.instagram.com/${SITE.instagram}`;
+const q = encodeURIComponent(SITE.address);
+const ph = (img, label) => img ? `<img src="${esc(img)}" alt="${esc(label)}" loading="lazy">` : `<small>Foto real do salão aqui<br>· ${esc(label)} ·</small>`;
+
+document.querySelectorAll('[data-wa]').forEach(a => a.href = wa);
+document.querySelectorAll('[data-ig]').forEach(a => a.href = ig);
+$('#igBig').textContent = 'Instagram @' + SITE.instagram;
+$('#trustTxt').textContent = `${SITE.rating} no Google | ${SITE.reviewCount} avaliações`;
+$('#score').textContent = SITE.rating;
+$('#scoreTxt').textContent = `${SITE.reviewCount} avaliações no Google`;
+$('#gLink').href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent('Aparecida Almeida Salon Messejana Fortaleza')}`;
+$('#dirBtn').href = `https://www.google.com/maps/dir/?api=1&destination=${q}`;
+$('#mapBtn').href = `https://www.google.com/maps/search/?api=1&query=${q}`;
+$('#addr').innerHTML = 'R. Padre Pedro de Alencar, 2053<br>Messejana, Fortaleza - CE<br>CEP 60872-560';
+$('#phoneTxt').textContent = 'WhatsApp: ' + SITE.phone;
+$('#fAddr').textContent = SITE.address.replace(', 60872-560','');
+$('#fPhone').textContent = SITE.phone;
+$('#fIg').textContent = 'Instagram: @' + SITE.instagram;
+$('#heroImg').innerHTML = ph(SITE.images.hero, 'Imagem principal');
+$('#aboutImg').innerHTML = ph(SITE.images.about, 'O salão');
+
+const links = SITE.menu.map(([t,id]) => `<li><a href="#${id}">${t}</a></li>`).join('');
+$('#menu').innerHTML = links; $('#flinks').innerHTML = links;
+$('#feats').innerHTML = SITE.features.map(([t,d]) => `<div class="feat rv"><i></i><div><h3>${t}</h3><p>${d}</p></div></div>`).join('');
+$('#services').innerHTML = SITE.services.map(s => `<article class="card rv"><div class="ph">${ph(s.img, s.name)}</div><div class="card-b"><h3>${esc(s.name)}</h3><p>${esc(s.desc)}</p><div class="meta">${[s.price, s.duration].filter(Boolean).map(esc).join(' · ')}</div><a class="btn ghost" target="_blank" rel="noopener" href="https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent('Olá! Gostaria de saber mais sobre: ' + s.name)}">Agendar</a></div></article>`).join('');
+$('#revs').innerHTML = SITE.reviews.map(r => `<figure class="rev rv" style="margin:0"><div class="st" aria-label="5 estrelas">★★★★★</div><p>“${esc(r.text)}”</p><cite>— ${esc(r.author)}</cite></figure>`).join('');
+$('#diffs').innerHTML = SITE.diffs.map(([t,d,p]) => `<div class="diff rv"><div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="${p}"/></svg></div><h3>${t}</h3><p>${d}</p></div>`).join('');
+
+/* galeria */
+const cats = ['Todos', ...new Set(SITE.gallery.map(g => g.cat))];
+$('#filters').innerHTML = cats.map((c,i) => `<button class="chip${i?'':' on'}" data-c="${c}">${c}</button>`).join('');
+$('#masonry').innerHTML = SITE.gallery.map((g,i) => `<button class="g ${g.size}" data-cat="${g.cat}" data-i="${i}" aria-label="Ampliar imagem: ${g.cat}"><div class="ph">${ph(g.img, g.cat)}</div></button>`).join('');
+$('#filters').onclick = e => { const b = e.target.closest('.chip'); if (!b) return;
+  document.querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x === b));
+  document.querySelectorAll('.g').forEach(g => g.classList.toggle('hide', b.dataset.c !== 'Todos' && g.dataset.cat !== b.dataset.c)); };
+const lb = $('#lb');
+$('#masonry').onclick = e => { const g = e.target.closest('.g'); if (!g) return; const it = SITE.gallery[g.dataset.i];
+  $('#lbImg').innerHTML = ph(it.img, it.cat); lb.classList.add('on'); document.body.classList.add('lock'); $('#lbX').focus(); };
+const closeLb = () => { lb.classList.remove('on'); document.body.classList.remove('lock'); };
+$('#lbX').onclick = closeLb; lb.onclick = e => { if (e.target === lb) closeLb(); };
+addEventListener('keydown', e => { if (e.key === 'Escape') { closeLb(); closeNav(); } });
+
+/* menu mobile + header */
+const nav = $('#nav'), bg = $('#burger'), scrim = $('#scrim');
+const setNav = open => { nav.classList.toggle('open', open); scrim.classList.toggle('on', open);
+  bg.setAttribute('aria-expanded', open); document.body.classList.toggle('lock', open || lb.classList.contains('on')); };
+const closeNav = () => setNav(false);
+bg.onclick = () => { setNav(true); $('#navX').focus(); };
+$('#navX').onclick = () => { closeNav(); bg.focus(); };
+scrim.onclick = closeNav;
+nav.onclick = e => { if (e.target.closest('a')) closeNav(); };
+matchMedia('(min-width:1121px)').addEventListener('change', e => { if (e.matches) closeNav(); });
+const hdr = $('#hdr'); const onScroll = () => hdr.classList.toggle('solid', scrollY > 30);
+addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+/* animação de entrada */
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { const t = e.target; t.classList.add('in'); io.unobserve(t); setTimeout(() => { t.style.transitionDelay = ''; t.classList.remove('rv', 'in'); }, 1400); } }), { threshold: .12 });
+document.querySelectorAll('.rv').forEach((el, i) => { el.style.transitionDelay = (i % 4) * 90 + 'ms'; io.observe(el); });
+</script>
+</body>
+</html>
